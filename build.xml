@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="bitpay/woocommerce-plugin" default="build:dist">
+    <target name="build:dist">
+        <zip destfile="build/dist/bitpay-woocommerce.zip">
+            <!-- @see http://www.phing.info/docs/stable/hlhtml/index.html#FileSet -->
+            <fileset dir="${project.basedir}">
+                <include name="FBAOutboundServiceMWS/**" />
+                <include name="*.php" />
+                <include name="*.png" />
+                <include name="*.php.sample" />
+                <include name="README.md" />
+                <include name="LICENSE" />
+            </fileset>
+        </zip>
+    </target>
+</project>

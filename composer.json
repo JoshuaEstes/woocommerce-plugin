@@ -1,0 +1,19 @@
+{
+    "name": "bitpay/woocommerce-plugin",
+    "description": "Plugin for woocommerce",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BitPay",
+            "email": "support@bitpay.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phing/phing": "*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
